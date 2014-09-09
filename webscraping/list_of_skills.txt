@@ -1,0 +1,49 @@
+5 questions each:
+  
+  asynchronous web scraping
+	-https://github.com/kennethreitz/grequests  
+  selenium
+  	-http://www.missingkids.com/home
+	-http://www.dmv.org/ny-new-york/forms.php
+	-http://www.namus.gov/
+`	
+  synchronous web scraping:
+	-download and save the html page for https://www.google.com
+	-write a web crawler that goes from http://www.techmeme.com/ to https://www.google.com
+  	
+
+  downloading specific content instead of whole pages
+	-download all the tables here: http://www.fbi.gov/about-us/cjis/ncic/ncic-missing-person-and-unidentified-person-statistics-for-2012 and save them to a different csv's
+	-download all the tables here: http://www.baseball-reference.com/teams/NYY/2014.shtml and save them to different csv's
+	-http://www.nyc.gov/html/nypd/html/missing_persons/missing_persons.shtml	
+	-https://www.facebook.com/MissingPeopleFromNewYork
+	-http://newyorkstatemissingpersons.ning.com/
+	-http://www.missingpersonsofamerica.com/p/subscribe.html
+	-http://www.interpol.int/notice/search/missing
+
+  mapping websites
+  
+  scraping dynamic content
+  
+  working with api's (flesh this out)
+	-make use of https://developer.cityofnewyork.us/api/open311-inquiry
+	-make use of https://dev.twitter.com/docs/api
+
+  
+  downloading files
+	-download all the pdfs from:
+		-http://oag.ca.gov/missing/stats
+		-http://www.nyc.gov/html/dof/html/forms_reports/property_forms_exemption.shtml
+		-http://www.nyc.gov/html/dof/html/forms_reports/property_forms_dividing_lots.shtml
+		-http://www.nycourts.gov/forms/familycourt/paternity.shtml
+		
+
+  parsing pdfs
+	-http://stackoverflow.com/questions/18755412/parse-a-pdf-using-python
+
+  Working with rss feeds
+	-http://www.huffingtonpost.com/news/missing-persons/
+	-http://www.nij.gov/about/pages/rss.aspx
+	-http://www.ncmissingpersons.org/
+
+	
