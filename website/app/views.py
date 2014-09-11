@@ -6,6 +6,6 @@ from app import app
 def index():
         return render_template("index.html")
 
-@app.route('/webscraping')
-def webscraping():
-	return render_template("webscraping.html")
+@app.route('/webscraping_exercises')
+def webscraping_exercises():
+	return render_template("webscraping_exercises.html")
