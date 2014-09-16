@@ -1,0 +1,29 @@
+import requests
+import lxml.html
+
+def get_links(url):
+    r = requests.get(url)
+    html = lxml.html.fromstring(r.text)
+    links = html.xpath("//a")
+    hrefs = [i.values() for i in links]
+    full_links = []
+    for uri in hrefs:
+        for i in uri:
+            if "http" in i:
+                full_links.append(i)
+    return full_links
+
+initial = get_links("http://www.techmeme.com")
+curr = initial
+google_found = False
+while not google_found:
+    new_links = []
+    for i in curr:
+        if "https://www.google.com" in i:
+            google_found = True
+        else:
+            links = get_links(i)
+            for i in links:
+                new_links.append(i)
+    curr = new_links
+            
